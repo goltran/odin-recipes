@@ -1,0 +1,95 @@
+body {
+    background-color: darksalmon;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: cornsilk;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul>li {
+    font-size: 1em;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+    color: cornsilk;
+}
+
+li a:hover {
+    color: bisque;
+}
+
+ol,
+ul {
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.lines {
+    background-image: linear-gradient( to right, pink, darksalmon 35%, darksalmon 65%, pink);
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-position: 0 center;
+}
+
+.text-center {
+    text-align: center;
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-link {
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 40px 40vw 40px 40vw;
+}
+
+.button-link:hover {
+    border: 1px solid pink;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    padding-bottom: 10px;
+}
